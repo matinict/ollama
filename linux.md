@@ -6,12 +6,7 @@
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-## Manual install
-
-> [!NOTE]
-> If you are upgrading from a prior version, you should remove the old libraries with `sudo rm -rf /usr/lib/ollama` first.
-
-Download and extract the package:
+## Manual install 
 
 ```shell
 curl -L https://ollama.com/download/ollama-linux-amd64.tgz -o ollama-linux-amd64.tgz
@@ -157,6 +152,7 @@ Remove the ollama service:
 sudo systemctl stop ollama
 sudo systemctl disable ollama
 sudo rm /etc/systemd/system/ollama.service
+sudo rm -rf /usr/lib/ollama
 ```
 
 Remove the ollama binary from your bin directory (either `/usr/local/bin`, `/usr/bin`, or `/bin`):
