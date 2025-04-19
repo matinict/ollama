@@ -31,24 +31,10 @@ In another terminal, verify that Ollama is running:
 ```shell
 ollama -v
 ```
-
-### AMD GPU install
-
-If you have an AMD GPU, also download and extract the additional ROCm package:
-
+Mdels distilled from DeepSeek-R1 based on Llama and Qwen.
 ```shell
-curl -L https://ollama.com/download/ollama-linux-amd64-rocm.tgz -o ollama-linux-amd64-rocm.tgz
-sudo tar -C /usr -xzf ollama-linux-amd64-rocm.tgz
-```
-
-### ARM64 install
-
-Download and extract the ARM64-specific package:
-
-```shell
-curl -L https://ollama.com/download/ollama-linux-arm64.tgz -o ollama-linux-arm64.tgz
-sudo tar -C /usr -xzf ollama-linux-arm64.tgz
-```
+  ollama run deepseek-r1 
+ ```
 
 ### Adding Ollama as a startup service (recommended)
 
