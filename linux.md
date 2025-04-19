@@ -2,7 +2,7 @@
 
 ## Install
 
-To install Ollama, run the following command:
+    #To install Ollama, run the following command:
 
 ```shell
 curl -fsSL https://ollama.com/install.sh | sh
