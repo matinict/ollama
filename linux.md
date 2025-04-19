@@ -24,6 +24,8 @@ Start Ollama:
 
 ```shell
 ollama serve
+##Cechk on browser
+127.0.0.1:11434
 ```
 
 In another terminal, verify that Ollama is running:
@@ -192,3 +194,8 @@ Remove installed libraries:
 ```shell
 sudo rm -rf /usr/local/lib/ollama
 ```
+
+
+## Ref
+
+    https://github.com/ollama/ollama/blob/main/docs/linux.md
